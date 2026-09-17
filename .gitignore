@@ -1,0 +1,156 @@
+### ==========================================
+
+### Environment Variables & Secrets (CRITICAL)
+
+### ==========================================
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+*.cert
+config/jwt/ 
+
+### ==========================================
+
+### Node.js / Express / NestJS
+
+### ==========================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.lerna/
+.npm/
+dist/
+lib/ 
+
+### ==========================================
+
+### Python (Django, Flask, FastAPI)
+
+### ==========================================
+
+**pycache**/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.poetry/
+.pytest_cache/
+.mypy_cache/ 
+
+### ==========================================
+
+### Java (Spring Boot, Maven, Gradle)
+
+### ==========================================
+
+### Compiled class file
+
+*.class 
+
+### Log files
+
+*.log 
+
+### BlueJ files
+
+*.ctxt 
+
+### Mobile Tools for Java (J2ME)
+
+.mtj.tmp/ 
+
+### Package Files
+
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar 
+
+### Maven
+
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.nextDevelopmentVersion
+pom.xml.backup
+pom.xml.ltwDevelopmentVersion
+release.properties 
+
+### Gradle
+
+.gradle/
+build/ 
+
+### ==========================================
+
+### Go / Golang
+
+### ==========================================
+
+### Binaries and templates
+
+bin/
+pkg/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out 
+
+### ==========================================
+
+### Databases & Logs
+
+### ==========================================
+
+*.log
+logs/
+*.sqlite
+*.sqlite3
+.db/
+data/ 
+
+### ==========================================
+
+### OS & IDE Settings
+
+### ==========================================
+
+### macOS
+
+.DS_Store
+.AppleDouble
+.LSOverride 
+
+### Windows
+
+Thumbs.db
+ehthumbs.db 
+
+### IDEs
+
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
