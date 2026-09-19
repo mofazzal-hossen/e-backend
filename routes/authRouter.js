@@ -3,7 +3,7 @@ import express from 'express'
 const router = express.Router()
 
 router.post("/register", (req,res)=>{
-req.send(rej)
+ res.json({ message: "Registration successful" })
 })
 
 
