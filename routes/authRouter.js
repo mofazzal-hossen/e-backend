@@ -2,7 +2,7 @@ import express from 'express'
 
 const router = express.Router()
 
-.post("/register", ()=>{
+router.post("/register", ()=>{
 
 })
 .post("/login", ()=>{
